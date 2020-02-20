@@ -16,7 +16,7 @@ public class client {
 		// TODO Auto-generated method stub
 		
 		Scanner scanner = new Scanner(System.in);
-		Loan loan = null;
+		Loan loan =new Loan();
 		LoanService loanService = new LoanServiceImpl();
 		List<Loan> list= null;
 		while(true) {
